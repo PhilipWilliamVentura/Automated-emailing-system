@@ -9,18 +9,18 @@ smtp_port = 587  # Standard secure SMTP port
 smtp_server = "smtp.gmail.com"  # Google SMTP Server
 
 emails = ['email 1', 'email 2']
-websites = ['microsoft.com', 'apple.com']
-companies = ['Microsoft', 'Apple']
+websites = ['website 1', 'website 2' '...']
+companies = ['company 2', 'company 1', '...']
 
 email_from = "your email"
 email_to = emails
 
 pswd = "___________"
 
-# content of message
+# content of the email
 
 subject = 'subject'
-message = 'message'
+message = 'message: Your' companies 'is impressive and your website' websites 'is cool.'
 
 em = EmailMessage()
 em['subject'] = subject
